@@ -8,22 +8,22 @@ A simple React app that fetches and displays sunset times for a specific locatio
 ## How to Run
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/clio-petersdorff/golden-hour
-   cd golden-hour
-   ```
+```bash
+git clone https://github.com/clio-petersdorff/golden-hour
+cd golden-hour
+```
 2. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Create an API key for the [Geolocation API](https://geocode.maps.co) and add it to a `.env` file
-   ```bash
-   VITE_API_KEY=<Your API key>
-   ```
-6. Start the development server:
-  ```bash
-  npm run dev
-  ```
+```bash
+npm install
+```
+3. Create an API key for the [Geolocation API](https://geocode.maps.co) and add it to a `.env` file
+```bash
+VITE_API_KEY=<Your API key>
+```
+4. Start the development server:
+```bash
+npm run dev
+```
 
 ## Inputs and Outputs
 There are input fields for the Date you wish to see and the Location. These are optional fields, and if they are left blank they will default to today's date and London respectively.
