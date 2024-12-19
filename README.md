@@ -42,4 +42,8 @@ In particular I would add react-datepicker (or something similar) to make the da
 
 I would also use the google maps APIs to make the location field more user friendly - in particular I think adding autocomplete would be good feature.
 
+3. Adding a loading spinner
+
+I would also add an animation that shows users their input is being processed in between the form and the results page.
+
 
