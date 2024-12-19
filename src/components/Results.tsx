@@ -64,7 +64,11 @@ const Results: FC<Props> = ({setInput, setDate , date, input, setLocation, setAp
 
             }
 
-            <button className = "m-6" onClick={goBack}>Go back</button>
+            <button 
+                className = "mt-10 py-2 px-4" 
+                onClick={goBack}>
+                Go back
+            </button>
         </div>
     )
 }

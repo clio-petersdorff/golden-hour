@@ -92,7 +92,7 @@ const Form: FC<Props> = ({setInput, date, input, setDate, location, setLocation,
             }
 
             <button 
-                className="mt-6 py-2 px-4"
+                className="mt-10 py-2 px-4"
                 onClick={handleSubmit}>
                 Submit
             </button>

@@ -77,8 +77,8 @@ function App() {
   return (
     <>
       <div className="fixed top-10 left-1/2 transform -translate-x-1/2 align-middle">
-        <img className = "w-40 mx-auto" alt="Sunset" src={sunset}/>
-        <h1>Golden Hour</h1>
+        <img className = "w-20 sm:w-40 mx-auto" alt="Sunset" src={sunset}/>
+        <h1 className="text-4xl sm:text-6xl">Golden Hour</h1>
       </div>
       
       {
