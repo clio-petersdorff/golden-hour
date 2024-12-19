@@ -9,7 +9,7 @@ import sunset from './assets/sunrise.png'
 function App() {
 
   const [input, setInput] = useState<boolean>(true) // determines whether form / results are shown
-  const [sunsetTime, setSunsetTime] = useState<string | null>(null); // To hold the sunset time
+  const [sunsetTime, setSunsetTime] = useState<string>(""); // To hold the sunset time
   const [apiKey, setApiKey] = useState<string | undefined>(undefined); 
 
   const [date, setDate] = useState<string>("");
@@ -66,8 +66,9 @@ function App() {
       const data = await response.json()
       setSunsetTime(data.results.sunset)          
           
-    } catch (e) {
-      console.log({ error: "An error occurred", message: e.message })
+    } catch (e: unknown) {
+      const error = e as Error; // Cast 'e' to 'Error'
+      console.log({ error: "An error occurred", message: error.message });
       setApiError(true)
     }
 
