@@ -3,6 +3,11 @@ A simple React app that fetches and displays sunset times for a specific locatio
 
 See deployed version: [Golden Hour](https://golden-hour-virid.vercel.app)
 
+## Choice of Framework
+For personal projects, I tend to use the MERN stack (MongoDB, Express, React, Node.js), although I’ve also built Next.js apps and worked with MySQL databases. For this project, I weighed up using plain React versus Next.js and decided to stick with React because the app is small and lightweight, which is my preference for Single Page Applications (SPAs). That said, if I were building something more complex with many pages, I’d choose Next.js for two reasons: 
+* Server-Side Rendering (SSR): It’s faster and more secure, particularly for data-intensive applications.
+* Next.js makes it easy to share UI between multiple pages using layout files. For example, you can define a header and footer in a parent component, and it will automatically apply to all child components or pages.
+
 ## API (s) used
 * [Geolocation API](https://geocode.maps.co) - to get latitude and longitude from the location supplied
 * [Sunset API](https://sunrise-sunset.org/api) - to get the time of the sunset based on the date provided and the coordinates
