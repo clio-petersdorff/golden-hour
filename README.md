@@ -8,6 +8,8 @@ For personal projects, I tend to use the MERN stack (MongoDB, Express, React, No
 * Server-Side Rendering (SSR): It’s faster and more secure, particularly for data-intensive applications.
 * Next.js makes it easy to share UI between multiple pages using layout files. For example, you can define a header and footer in a parent component, and it will automatically apply to all child components or pages.
 
+In terms of libraries I didn't really use any except for Tailwind CSS (and Autoprefixer & PostCSS which are peer dependencies). It offers more flexibility than Bootstrap and is quicker and easier than plain CSS. Plus, it eliminates the worry of managing multiple stylesheets or dealing with class overrides, making the styling process much more straightforward. 
+
 ## API (s) used
 * [Geolocation API](https://geocode.maps.co) - to get latitude and longitude from the location supplied
 * [Sunset API](https://sunrise-sunset.org/api) - to get the time of the sunset based on the date provided and the coordinates
